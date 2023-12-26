@@ -68,5 +68,5 @@ export const projectsData = [
 ];
 
 export const skillsData = ["HTML", "CSS", "JavaScript", "React", "Python",
-"Node.js","Express.js", "SQL", "C#", "Java", "Flutter", "Dart", "Unity",
-"Godot", "Blender"];
+    "Node.js", "Express.js", "SQL", "C#", "Java", "Flutter", "Dart", "Unity",
+    "Godot", "Blender"];
