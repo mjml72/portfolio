@@ -1,7 +1,7 @@
 export const projectsData = [
 
     {
-        imageUrl: "../images/calculator.JPG",
+        imageUrl: "../images/calculator.jpg",
         name: "Calculator",
         description: "JavaScript calculator using Object Oriented Programming.",
         tools: "HTML CSS JavaScript",
@@ -9,7 +9,7 @@ export const projectsData = [
         codeUrl: "https://github.com/mjml72/calculator-app-2"
     },
     {
-        imageUrl: "../images/countriesapp.JPG",
+        imageUrl: "../images/countriesapp.jpg",
         name: "Countries App",
         description: "Countries Database App using a restcountry api.",
         tools: "HTML CSS JavaScript",
@@ -17,7 +17,7 @@ export const projectsData = [
         codeUrl: "https://github.com/mjml72/restcountryapp"
     },
     {
-        imageUrl: "../images/pokedex.JPG",
+        imageUrl: "../images/pokedex.jpg",
         name: "Pokédex App",
         description: "Pokédex App using the official Nintendo api.",
         tools: "HTML CSS JavaScript",
@@ -25,7 +25,7 @@ export const projectsData = [
         codeUrl: "https://github.com/mjml72/pokedex-app"
     },
     {
-        imageUrl: "../images/tipcalculator.JPG",
+        imageUrl: "../images/tipcalculator.jpg",
         name: "Tip Calculator",
         description: "Tip Calculator App doing a Frontenmentor challenge.",
         tools: "HTML CSS JavaScript",
@@ -33,7 +33,7 @@ export const projectsData = [
         codeUrl: "https://github.com/mjml72/tip-calculator"
     },
     {
-        imageUrl: "../images/cocktailsapp.JPG",
+        imageUrl: "../images/cocktailsapp.jpg",
         name: "Cocktail Database",
         description: "A cocktail info page app using TheCocktail api and React.",
         tools: "HTML CSS JavaScript React",
@@ -41,7 +41,7 @@ export const projectsData = [
         codeUrl: "https://github.com/mjml72/restcountryapp"
     },
     {
-        imageUrl: "../images/mealsapp.JPG",
+        imageUrl: "../images/mealsapp.jpg",
         name: "Meals App",
         description: "A meals recipes page app using TheMealDatabase api and React.",
         tools: "HTML CSS JavaScript React",
@@ -49,7 +49,7 @@ export const projectsData = [
         codeUrl: "https://github.com/mjml72/meals-app"
     },
     {
-        imageUrl: "../images/theplanets.JPG",
+        imageUrl: "../images/theplanets.jpg",
         name: "The Planets",
         description: "A small React application wiht the planets of the solar system.",
         tools: "HTML CSS JavaScript React",
@@ -57,7 +57,7 @@ export const projectsData = [
         codeUrl: "https://github.com/mjml72/theplanets-app"
     },
     {
-        imageUrl: "../images/countriesappflutter.JPG",
+        imageUrl: "../images/countriesappflutter.jpg",
         name: "Countries Flutter",
         description: "Countries Database App Flutter version.",
         tools: "Flutter Dart",
