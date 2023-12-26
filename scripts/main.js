@@ -5,7 +5,7 @@ import { skillCard } from "./skillscard.js";
 const btnMenu = document.getElementById("btnmenu");
 const nav = document.getElementById("nav");
 
-window.addEventListener("DOMContentLoaded", () => {
+window.addEventListener("load", () => {
     for (let i = 0; i < projectsData.length; i++) {
         projectCard(projectsData[i]);
     }   
