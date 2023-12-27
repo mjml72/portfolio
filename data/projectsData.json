@@ -1,7 +1,6 @@
 [
 
     {
-        
         "name": "Calculator",
         "description": "JavaScript calculator using Object Oriented Programming.",
         "tools": "HTML CSS JavaScript",
@@ -9,7 +8,6 @@
         "codeUrl": "https://github.com/mjml72/calculator-app-2"
     },
     {
-       
         "name": "Countries App",
         "description": "Countries Database App using a restcountry api.",
         "tools": "HTML CSS JavaScript",

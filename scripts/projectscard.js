@@ -1,10 +1,10 @@
 const projectsbox = document.getElementById("projectsbox");
 
 
-export function projectCard(project) {
+export function projectCard(project, image) {
     let projectcard = document.createElement("div");
     projectcard.classList.add("projectscard");
-    projectcard.style.backgroundImage = `url("images/calculator.jpg")`;
+    projectcard.style.backgroundImage = `url(${image})`;
 
     let infoproject = document.createElement("div");
     infoproject.classList.add("infoproject");
