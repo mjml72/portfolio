@@ -1,18 +1,30 @@
-import { projectsData, skillsData } from "./data.js";
 import { projectCard } from "./projectscard.js";
 import { skillCard } from "./skillscard.js";
+
+const skillsData = ["HTML", "CSS", "JavaScript", "React", "Python",
+    "Node.js", "Express.js", "SQL", "C#", "Java", "Flutter", "Dart", "Unity",
+    "Godot", "Blender"];
 
 const btnMenu = document.getElementById("btnmenu");
 const nav = document.getElementById("nav");
 
-window.addEventListener("load", () => {
-    for (let i = 0; i < projectsData.length; i++) {
-        projectCard(projectsData[i]);
-    }   
+async function fetchData() {
+    let response = await fetch("data/projectsData.json");
+    let data = await response.json();
+    createCards(data);
+}
+
+function createCards(projectsData) {
     for (let i = 0; i < skillsData.length; i++) {
         skillCard(skillsData[i]);        
     }
-});
+
+    for (let i = 0; i < projectsData.length; i++) {
+        projectCard(projectsData[i]);
+    }   
+
+}
+window.addEventListener("load", fetchData);
 
 btnMenu.addEventListener("click", () => {
 
