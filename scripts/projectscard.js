@@ -4,7 +4,7 @@ const projectsbox = document.getElementById("projectsbox");
 export function projectCard(project) {
     let projectcard = document.createElement("div");
     projectcard.classList.add("projectscard");
-    projectcard.style.backgroundImage = `url(${project.imageUrl})`;
+    projectcard.style.backgroundImage = `url("images/calculator.jpg")`;
 
     let infoproject = document.createElement("div");
     infoproject.classList.add("infoproject");
