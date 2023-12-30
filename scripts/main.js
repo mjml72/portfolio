@@ -1,8 +1,9 @@
 import { projectCard } from "./projectscard.js";
 import { skillCard } from "./skillscard.js";
 
-const skillsData = ["HTML", "CSS", "JavaScript", "React", "Python",
-    "Node.js", "Express.js", "SQL", "C#", "Java", "Flutter", "Dart", "Unity",
+const skillsData = ["HTML", "CSS", "JavaScript", "React",
+    "Node.js", "Express.js", "SQL", "C#", "Java", "Flutter", "Dart", 
+    "Python", "Unity",
     "Godot", "Blender"];
 
 const images = ["images/calculator.jpg", "images/countriesapp.jpg",
